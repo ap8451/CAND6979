@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-
+#Classification
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_iris
@@ -24,7 +24,7 @@ print("Test set accuracy: {:.2f}%".format(acc*100))
 
 # In[3]:
 
-
+#Regression
 
 from sklearn.datasets import load_boston
 from sklearn.ensemble import RandomForestRegressor
